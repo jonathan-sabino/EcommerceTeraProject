@@ -110,7 +110,8 @@ body {
 nav ul, nav li {
     margin: 50;
     list-style: none;
-    text-align: center;
+    margin-left: 10%;
+    padding: 0%;
     margin-top: 2%;
     
 
@@ -144,8 +145,8 @@ nav li + li {
 
 
 nav img {
-    max-width: 80%;
-    margin: 3% 10% 0; 
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Estilos para o container da grid */
