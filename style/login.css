@@ -61,7 +61,7 @@ label {
 }
 
 input {
-  border-bottom: 2px solid var(--preto);
+  border: 0.5px solid var(--preto);
   padding: 10px;
   font-size: 1rem;
   margin-bottom: 20px;
@@ -84,7 +84,7 @@ input[type="submit"] {
   height: 40px;
   border-radius: 10px;
   margin-top: 30px;
-  color: #ffffff;
+  color:var(--branco);
   background-color: var(--azul);
   cursor: pointer;
 }
