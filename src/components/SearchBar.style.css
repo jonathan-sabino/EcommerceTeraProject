@@ -2,13 +2,9 @@
   padding: 15px 0px;
 }
 
-.header-search form {
-  position: relative;
-}
-
 .header-search form .input {
   width: calc(100% - 160px);
-  margin-right: -4px;
+  margin-right: -1px;
   border-radius: 50px 0 0 50px;
 }
 

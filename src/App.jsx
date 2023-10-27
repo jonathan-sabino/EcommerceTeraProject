@@ -1,4 +1,3 @@
-import './assets/css/style.css';
 import './App.css';
 import TopHeader from './components/TopHeader';
 import MainHeader from './components/MainHeader';
