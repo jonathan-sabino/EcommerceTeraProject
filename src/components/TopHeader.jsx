@@ -1,4 +1,6 @@
 // import React from 'react';
+import './topheader.style.css';
+import TopHeaderInfo from './atoms/TopHeaderInfo';
 
 export default function TopHeader() {
   return (
@@ -8,25 +10,34 @@ export default function TopHeader() {
           <ul className="header-links pull-left">
             <li>
               <a href="#">
-                <i className="fa fa-phone"></i> (11) 99999-9999
+                <TopHeaderInfo
+                  iconInfo="fa fa-phone"
+                  textInfo="(19) 99999-9999"
+                />
               </a>
             </li>
             <li>
               <a href="#">
-                <i className="fa fa-envelope-o"></i> email@email.com
+                <TopHeaderInfo
+                  iconInfo="fa fa-envelope-o"
+                  textInfo="email@email.com"
+                />
               </a>
             </li>
             <li>
               <a href="#">
-                <i className="fa fa-map-marker"></i> Rua dos Bobos, 123 -
-                Technópolis
+                <TopHeaderInfo
+                  iconInfo="fa fa-map-marker"
+                  textInfo="Rua dos Bobos, 123 -
+                  Technópolis"
+                />
               </a>
             </li>
           </ul>
           <ul className="header-links pull-right">
             <li>
               <a href="#">
-                <i className="fa fa-user-o"></i> Minha Conta
+                <TopHeaderInfo iconInfo="fa fa-user-o" textInfo="Minha Conta" />
               </a>
             </li>
           </ul>
