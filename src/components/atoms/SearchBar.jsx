@@ -1,4 +1,4 @@
-import '../components/searchbar.style.css';
+import '../atoms/searchbar.style.css';
 // import React from 'react';
 
 export default function SearchBar() {

@@ -1,6 +1,6 @@
 // import React from 'react';
-import SearchBar from './SearchBar';
-import HeaderLogo from './HeaderLogo';
+import SearchBar from './atoms/SearchBar';
+import HeaderLogo from './atoms/HeaderLogo';
 
 export default function MainHeader() {
   return (
@@ -19,7 +19,7 @@ export default function MainHeader() {
                 <div>
                   <a href="#">
                     <i className="fa fa-heart-o"></i>
-                    <span>Your Wishlist</span>
+                    <span>Favoritos</span>
                     <div className="qty">2</div>
                   </a>
                 </div>
@@ -31,7 +31,7 @@ export default function MainHeader() {
                     aria-expanded="true"
                   >
                     <i className="fa fa-shopping-cart"></i>
-                    <span>Your Cart</span>
+                    <span>Carrinho</span>
                     <div className="qty">3</div>
                   </a>
                   <div className="cart-dropdown">

@@ -1,4 +1,4 @@
-import teraGamesLogo from '../assets/images/logo.svg';
+import teraGamesLogo from '../../assets/images/logo.svg';
 // import React from 'react';
 
 export default function HeaderLogo() {
